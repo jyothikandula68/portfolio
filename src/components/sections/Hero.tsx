@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { FiDownload, FiLinkedin, FiMail, FiMapPin } from 'react-icons/fi';
-import illustration from '../../assets/illustration.svg';
+import illustration from '../../assets/illustration-woman.png';
 import profilePhoto from '../../assets/jyothi.png';
 import { personalInfo } from '../../data/portfolio';
 import { FadeIn } from '../ui/FadeIn';
@@ -82,7 +82,7 @@ export function Hero() {
             >
               <img
                 src={illustration}
-                alt="Developer illustration"
+                alt="Woman developer illustration"
                 className="max-h-[340px] w-full max-w-sm object-contain opacity-90"
               />
             </motion.div>
