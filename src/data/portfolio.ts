@@ -11,7 +11,7 @@ export const personalInfo = {
   summary:
     'Senior full-stack developer with 2+ years building scalable SaaS platforms, enterprise applications, and cloud-native systems with NestJS, Node.js, React, Next.js, TypeScript, AWS, and Azure. I focus on document pipelines, workflow automation, payment integrations, and production systems for file processing, PDF generation, invoicing, and secure authentication.',
   about:
-    'I design order and medical-record systems for requesters, processors, and admins. That includes an OMS portal with Stripe billing and invoice PDFs, Azure Functions and Blob pipelines for bulk upload and record delivery, Pusher notifications, Redis background jobs, plus medical-record storage and request tracking with role-based access, search, and audit history.',
+    'I design order and medical-record systems for requesters, processors, and admins. That includes an OMS portal with Stripe billing and invoice PDFs, Azure Functions and Blob pipelines for bulk upload and record delivery, Pusher notifications, Redis background jobs, and SQL Server and MySQL storage, plus request tracking with role-based access, search, and audit history.',
 };
 
 export const stats = [
@@ -71,7 +71,7 @@ export const capabilities: {
     title: 'Medical Records System',
     description:
       'Screens and APIs to store and retrieve patient records by medical record number, facility, and record type, with upload, view, download, search, and role-based access.',
-    tech: ['React', 'REST APIs', 'MSSQL'],
+    tech: ['React', 'REST APIs', 'SQL Server'],
     iconKey: 'ehr',
   },
   {
@@ -119,7 +119,7 @@ export const techStack = [
   },
   {
     category: 'Database',
-    items: ['PostgreSQL', 'MySQL', 'MongoDB', 'DynamoDB', 'SQL Server'],
+    items: ['SQL Server', 'PostgreSQL', 'MySQL', 'MongoDB', 'DynamoDB'],
   },
   {
     category: 'Cloud',
@@ -173,10 +173,10 @@ export const experiences = [
     accent: '#A855F7',
     highlights: [
       'Delivered full-stack OMS features for creating and managing medical-record orders, including request forms, order details, and status updates.',
-      'Built React screens and Node/Express APIs for facilities, applicants, record types, and request-processor workflows.',
+      'Built React screens and Node/Express APIs on SQL Server for facilities, applicants, record types, and request-processor workflows.',
       'Developed secure REST APIs and authentication so requesters, processors, and admins only see their own orders and documents.',
       'Improved list and order-detail performance with pagination, caching, and fewer repeat API calls.',
-      'Built MRS screens and APIs to store and retrieve patient records by medical record number, facility, and record type, with upload, view, download, search, and role-based access.',
+      'Built MRS screens and SQL Server APIs to store and retrieve patient records by medical record number, facility, and record type, with upload, view, download, search, and role-based access.',
       'Connected MRS records to OMS requests so a new order can pull the right patient and facility documents.',
       'Built RTR screens and REST APIs to track each record request from intake through processing, invoicing, and release, with queues, status timelines, audit logs, and notification hooks.',
     ],
@@ -217,7 +217,7 @@ export const projects: {
       'Search, filters, and role-based access for patient, facility, and custodian data',
       'Linked to OMS so a new order can pull the matching patient and facility documents',
     ],
-    tech: ['React', 'Node.js', 'Express', 'MSSQL', 'AWS'],
+    tech: ['React', 'Node.js', 'Express', 'SQL Server', 'AWS'],
     gradient: 'from-violet-600/30 to-indigo-600/20',
     icon: '🏥',
   },
